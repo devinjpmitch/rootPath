@@ -1,0 +1,54 @@
+{
+  "name": "rootpath",
+  "productName": "Root Path",
+  "version": "1.0",
+  "author": "Mitchell Chelin",
+  "renderer": "lib/renderer.js",
+  "bgColor": "#ff5300",
+  "icon": "icon.svg",
+  "description": "Change your root path quicker using this frontend input for localWP",
+  "main": "lib/main.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "eslint": "^5.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-react": "^7.11.1",
+    "@types/classnames": "^2.2.9",
+    "@types/dateformat": "^3.0.1",
+    "@types/node": "^18.11.9",
+    "@types/node-fetch": "^2.6.2",
+    "@types/react": "^18.0.25",
+    "typescript": "^3.6.4",
+    "@getflywheel/eslint-config-local": "1.0.4",
+    "@getflywheel/local": "^5.0.0"
+  },
+  "peerDependencies": {
+    "react": ">= 16.4.0",
+    "react-dom": ">= 16.4.0",
+    "react-router-dom": "^4.3.1"
+  },
+  "dependencies": {
+    "@getflywheel/local-components": "^14.0.0",
+    "apollo-boost": "^0.4.9",
+    "classnames": "^2.2.6",
+    "cross-fetch": "^3.1.5",
+    "dateformat": "^3.0.3",
+    "fs-extra": "^9.0.1",
+    "prop-types": "^15.6.2",
+    "react": ">= 16.4.0",
+    "react-dom": ">= 16.4.0",
+    "react-router-dom": "^4.3.1"
+  },
+  "bundledDependencies": [
+    "classnames",
+    "dateformat",
+    "@getflywheel/local-components",
+    "prop-types"
+  ],
+  "engines": {
+    "local-by-flywheel": "^5.0.0"
+  }
+}

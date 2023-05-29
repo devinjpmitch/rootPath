@@ -1,0 +1,13 @@
+.rootPath .TableListRow .BasicInput {
+	margin: 0;
+}
+.rootPath .TableListRow .BasicInput input[type="text"] {
+	padding: 0 10px;
+	min-height: 30px;
+}
+.rootPath .TableListRow > div {
+    display: grid !important;
+    grid-template-columns: auto minmax(100px,120px);
+    width: 100%;
+    padding-right: 1rem !important;
+}
