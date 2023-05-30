@@ -13,17 +13,16 @@
     "build": "tsc"
   },
   "devDependencies": {
-    "eslint": "^5.0.0",
-    "eslint-plugin-import": "^2.14.0",
-    "eslint-plugin-react": "^7.11.1",
+    "@getflywheel/eslint-config-local": "1.0.4",
+    "@getflywheel/local": "^5.0.0",
     "@types/classnames": "^2.2.9",
     "@types/dateformat": "^3.0.1",
     "@types/node": "^18.11.9",
     "@types/node-fetch": "^2.6.2",
     "@types/react": "^18.0.25",
-    "typescript": "^3.6.4",
-    "@getflywheel/eslint-config-local": "1.0.4",
-    "@getflywheel/local": "^5.0.0"
+    "eslint": "^5.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-react": "^7.11.1"
   },
   "peerDependencies": {
     "react": ">= 16.4.0",
@@ -31,6 +30,7 @@
     "react-router-dom": "^4.3.1"
   },
   "dependencies": {
+    "16": "^0.0.2",
     "@getflywheel/local-components": "^14.0.0",
     "apollo-boost": "^0.4.9",
     "classnames": "^2.2.6",
@@ -40,7 +40,8 @@
     "prop-types": "^15.6.2",
     "react": ">= 16.4.0",
     "react-dom": ">= 16.4.0",
-    "react-router-dom": "^4.3.1"
+    "react-router-dom": "^4.3.1",
+    "typescript": "^5.0.4"
   },
   "bundledDependencies": [
     "classnames",
@@ -50,5 +51,11 @@
   ],
   "engines": {
     "local-by-flywheel": "^5.0.0"
-  }
+  },
+  "bundleDependencies": [
+    "classnames",
+    "dateformat",
+    "@getflywheel/local-components",
+    "prop-types"
+  ]
 }
